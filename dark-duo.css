@@ -1,0 +1,95 @@
+.duo-central{
+  background-color: #000;
+  color: #eee;
+}
+
+#tile-search{
+  background-color: #333;
+  color: #ccc;
+}
+
+#Manage\ Devices\ button{
+  color: #ccc;
+}
+
+#Manage\ Devices\ button:hover{
+  background-color: rgba(79,84,92,.5);
+  border-radius: 8px;
+  transition: background var(--time-transition-short) ease-in-out;
+}
+
+#user-menu-toggle{
+  color: #ccc;
+}
+
+#user-menu-toggle:hover{
+  background-color: rgba(79,84,92,.5);
+  border-radius: 8px;
+  transition: background var(--time-transition-short) ease-in-out;
+}
+
+#duo-central-parent > div > header{
+  background-color: rgba(79,84,92,.1);
+}
+
+.duo-central-body{
+  background-color: rgba(79,84,92,.2);;
+}
+
+.link-card.border--is-interactive.duo-central-tile{
+  background-color: rgba(79,84,92,.3);
+}
+
+.link-card.border--is-interactive.duo-central-tile:hover{
+  background-color: rgba(50,50,50,1);
+}
+
+.tile-text {
+  color: #ddd;
+}
+.tile-list a{
+  color: #ccc;
+  margin: 20px;
+}
+
+.tile-list a:hover{
+  color: #ccc;
+  background-color: rgba(50,50,50,1);
+}
+
+#duo-central-parent > div > main > div > div > div > a{
+  background-color: rgba(79,84,92,.3);
+}
+
+#duo-central-parent > div > main > div > div > div > a:hover{
+  background-color: rgba(50,50,50,1);
+}
+
+#duo-central-parent > div > main > div > div > div ::before{
+  border: none;
+}
+
+#user-menu fieldset {
+  border-color: rgba(79,84,92,.3);
+}
+
+#user-menu {
+  background-color: rgba(31,32,36,1);
+  color: #ccc;
+}
+
+#user-menu .nav-popover__nub::before{
+  background-color: rgba(31,32,36,1);
+}
+
+#user-menu button{
+  background-color: rgba(31,32,36,1);
+}
+
+#user-menu a{
+  background-color: rgba(31,32,36,1);
+}
+
+#duo-central-parent > div > main > footer > p {
+  color: rgba(79,84,92,1);
+}
