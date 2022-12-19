@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><title>Duo Power Tools Options</title></head>
+<body>
+
+<div class="option">
+<label>Duo Central Theme</label>
+  <select id="theme">
+    <option value="default">Default</option>
+   <option value="outlook-duo.css">Dark Outlook</option>
+   <option value="dark-duo.css">Dark Duo</option>
+   <option value="webex-duo.css">Dark Webex</option>
+   <option value="twitter-dark.css">Dark Twitter</option>
+   <option value="azure-apps.css">Azure Apps</option>
+
+  </select>
+</div>
+
+<br>
+
+<div class="option">
+  <label>Change user label</label>
+  <input type="checkbox" id="changeLabel">
+</div>
+
+<div class="option" id=userLabelOption>
+  <label>Label</label>
+  <input type="text" id="userLabel" value="Email Address">
+</div>
+
+<br>
+
+<div class="option">
+  <label>Append Domain</label>
+  <input type="checkbox" id="appendDomain">
+</div>
+
+<div class="option" id=domainOption>
+  <label>Domain</label>
+  <input type="text" id="domain">
+</div>
+
+<br>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>

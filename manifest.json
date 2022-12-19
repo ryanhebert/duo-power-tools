@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+
+  "name": "Duo Power Tools",
+  "description": "Better Duo",
+
+  "permissions": [
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+      "https://*.login.duosecurity.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}
