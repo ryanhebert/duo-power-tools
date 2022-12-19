@@ -1,0 +1,54 @@
+.duo-central{
+  background-color: #000;
+}
+
+#tile-search{
+  background-color: rgba(43,43,43,1);
+  color: #ccc;
+}
+
+#Manage\ Devices\ button{
+  color: rgba(182,182,182,1);
+}
+
+#Manage\ Devices\ button:hover{
+  background-color: rgba(62,62,62,1);
+  border-radius: 8px;
+}
+
+#user-menu-toggle{
+  color: rgba(182,182,182,1);
+}
+
+#user-menu-toggle:hover{
+  background-color: rgba(62,62,62,1);
+  border-radius: 8px;
+}
+
+#duo-central-parent > div > main > footer > p {
+  color: #555;
+}
+
+.duo-central-header{
+  background-color: rgba(20,20,20,1);
+}
+
+.duo-central-body{
+  background-color: rgba(50,50,50,1);
+}
+
+.link-card.border--is-interactive.duo-central-tile{
+  background-color: rgba(30,30,30,1);
+}
+
+.link-card.border--is-interactive.duo-central-tile:hover{
+  background-color: rgba(40,40,40,1);
+}
+
+.tile-text {
+  color: rgba(230,230,230,1);
+}
+
+#user-menu {
+  background-color: ;
+}

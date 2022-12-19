@@ -1,0 +1,63 @@
+.duo-central{
+  background-color: rgba(16,16,16,1);
+  background-image: linear-gradient(to right, rgba(40,190,240,1), rgba(61,111,248,1), rgba(134,232,110,1));
+}
+
+.duo-central-header{
+  background-color: rgba(26,26,26,1);
+}
+
+.duo-central-body{
+  background-image: linear-gradient(rgba(38,38,38,1), rgba(16,16,16,1));
+}
+
+#tile-search{
+  background-color: rgba(38,38,38,1);
+  color: rgba(200,200,200,1);
+  border-radius: 1.5rem;
+}
+
+#Manage\ Devices\ button{
+  color: rgba(180,180,180,1);
+  text-decoration:none;
+}
+
+
+#Manage\ Devices\ button:hover{
+  border-radius: 1.5rem;
+  background-color: rgba(38,38,38,1);
+}
+
+#user-menu-toggle{
+  color: rgba(180,180,180,1);
+}
+
+#user-menu-toggle:hover{
+  border-radius: 1.5rem;
+  background-color: rgba(38,38,38,1);
+  text-decoration:none;
+}
+
+.link-card.border--is-interactive.duo-central-tile{
+  background-color: transparent;
+  border-radius: 80px;
+  box-shadow: none;
+  border: solid 1px rgba(61,111,248,.1);
+  transition: none;
+}
+
+.link-card.border--is-interactive.duo-central-tile:hover{
+  background-color: rgba(61,111,248,.025);
+}
+
+.tile-text{
+  color: rgba(200,200,200,1);
+}
+
+.link-card.border--is-interactive.duo-central-tile:hover{
+  color: rgba(244,244,244,1);
+}
+
+#duo-central-parent > div > main > footer > p {
+  color: rgba(61,111,248,1);
+}

@@ -1,0 +1,105 @@
+.duo-central{
+  background-color: rgba(255,255,255,1);
+}
+
+header {
+  all: revert;
+}
+
+.duo-central-header{
+  background-color: rgba(243,242,241,1);
+  border-bottom: solid 1px rgba(234,234,234,1);
+  height: 48px;
+  padding: 0 !important;
+  margin-bottom: 40px;
+/*  overflow: hidden;*/
+}
+
+#duo-central-parent > div > header > div.logo.logo--medium.duo-central-header__flanker > img{
+  max-height: 36px;
+  margin-left: 12px;
+}
+
+input.search{
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-top-style: hidden;
+  background-color: rgba(255,255,255,1);
+  box-shadow: none;
+  height: 1rem;
+  font-size: .8rem;
+  text-decoration-style: none;
+  color: rgb(36, 36, 36);
+}
+
+input.search:focus{
+  border-radius: 0;
+}
+
+#Manage\ Devices\ button{
+  color: rgb(36, 36, 36);
+  text-decoration:none;
+  height: 48px;
+  padding: 0 10px 0 10px;
+  font-weight: 300;
+}
+
+
+
+#Manage\ Devices\ button:hover{
+  background-color: rgb(237,235,233);
+}
+
+#user-menu-toggle{
+  color: rgb(36, 36, 36);
+}
+
+#user-menu-toggle:hover{
+  background-color: rgb(237,235,233);
+  text-decoration:none;
+}
+.duo-central__grid-container {
+  max-width: 840px;
+}
+
+.tile-grid-layout{
+  
+  margin: 0 auto 0 auto;
+/*  background-color: red;*/
+  box-sizing: border-box;
+}
+
+.link-card.border--is-interactive.duo-central-tile{
+  background-color: transparent;
+  box-shadow: none;
+  max-width: 140px;
+  max-height: 150px;
+  margin: 0px 0px 0px 0px;
+  padding: 20px 7px 36px 7px;
+  border-radius: 0;
+  border: 1px solid transparent;
+/*  box-sizing: border-box;*/
+/*  background-color: grey;*/
+
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+/*  overflow: hidden;*/
+  padding-bottom: 10px;
+}
+
+
+.link-card.border--is-interactive.duo-central-tile img {
+  max-width: 90px;
+  margin-bottom: 5px;
+}
+
+.tile-text {
+  color: rgba(50,49,48,1);
+}
+
+.link-card.border--is-interactive.duo-central-tile:hover {
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+}

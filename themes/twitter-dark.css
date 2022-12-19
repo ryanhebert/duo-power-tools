@@ -1,0 +1,72 @@
+.duo-central{
+  background-color: rgba(38,154,237,1);
+}
+
+.duo-central-header{
+  background-color: rgba(0,0,0,1);
+  border-bottom: solid 1px rgba(51,51,51,1);
+  height: 9rem;
+}
+
+.duo-central-body{
+  background-color: rgba(0,0,0,1);
+}
+
+#tile-search{
+  outline: none;
+  border-radius: 10rem;
+}
+
+input.search{
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-top-style: hidden;
+  background-color: rgba(32,35,39,1);
+  box-shadow: none;
+  height: 2.5rem;
+  font-size: 1.2em;
+  text-decoration-style: none;
+}
+
+
+#Manage\ Devices\ button{
+  color: rgba(231,233,234,1);
+  text-decoration:none;
+}
+
+
+
+#Manage\ Devices\ button:hover{
+  border-radius: 1.5rem;
+  background-color: rgba(24,24,24,1);
+}
+
+#user-menu-toggle{
+  color: rgba(231,233,234,1);
+}
+
+#user-menu-toggle:hover{
+  border-radius: 1.5rem;
+  background-color: rgba(24,24,24,1);
+  text-decoration:none;
+}
+
+.link-card.border--is-interactive.duo-central-tile{
+  background-color: rgba(0,0,0,1);
+/*  border-radius: 16px;*/
+  box-shadow: none;
+  border: solid 1px rgba(51,51,51,1);
+}
+
+.link-card.border--is-interactive.duo-central-tile:hover{
+  background-color: rgba(24,24,24,1);
+}
+
+.tile-text{
+  color: rgba(231,233,234,1);
+}
+
+#duo-central-parent > div > main > footer > p {
+  color: rgba(38,154,237,1);
+}
